@@ -1,0 +1,26 @@
+@import '../abstracts/_mixins';
+
+.header {
+  display: flex;
+  margin: 0 15px;
+  background-color: $header-footer-color;
+}
+.open-pop-up {
+  margin: 30.5px 0 30.5px 30px;
+  background-color: $button-color;
+  width: 206px;
+  height: 39px;
+  border-radius: 5px;
+  border-width: 0;
+  user-select: none;
+  @include text(20px);
+  &:hover{
+    transition: all .25s ease-in;
+    background-color: #adc9f1
+  }
+  &:active{
+    transition: all .25s ease-in;
+    background-color: #90b7f3
+  }
+  
+}

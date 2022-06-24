@@ -1,0 +1,8 @@
+@mixin text ($size) {
+  color: $text-color;
+  font-family: 'Roboto', sans-serif;
+  font-size: $size;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
